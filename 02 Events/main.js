@@ -1,7 +1,7 @@
 // ------------ get page elements
 
-const createBtn = document.querySelector('#create-btn');
-const clearBtn = document.querySelector('#clear-btn');
+const createBtn = document.getElementById('create-btn');
+const clearBtn = document.getElementById('clear-btn');
 
 const nameInput = document.querySelector('#nameInput');
 const priceInput = document.querySelector('#priceInput');
